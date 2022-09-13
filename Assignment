@@ -1,1 +1,61 @@
 Assignment 1:
+
+
+
+# List
+
+list= ["Hello",True,'How',69]
+print(list[1])
+list.append("Are")
+list.insert(5,"You")
+print(list)
+list.remove(True)
+list.pop(2)
+print(list)
+
+  OUTPUT=
+  True
+  ['Hello', True, 'How', 69, 'Are', 'You']
+  ['Hello', 'How', 'Are', 'You']
+
+
+  
+#Tuple
+tuple=("hii","everyone",344,False)
+tup=(1,4,754,"Google")
+print(tuple+tup)
+  
+  OUTPUT:
+  ('hii', 'everyone', 344, False, 1, 4, 754, 'Google')
+
+  
+#Dict
+
+dict={
+    "Memory":["Sad","Happy"],
+    "Excitement":"High",
+    "Rating": 10,
+    "Status":True,
+    "Brain":"Improving"
+}
+print(dict["Memory"][1])
+dict["Impression"]="Good"
+print(dict)
+dict["Excitement"]="LOW"
+print(dict["Excitement"])
+  
+  OUTPUT:
+  Happy
+  {'Memory': ['Sad', 'Happy'], 'Excitement': 'High', 'Rating': 10, 'Status': True, 'Brain': 'Improving', 'Impression': 'Good'}
+  LOW
+
+a="Impersonating The One"
+print(a[:])
+
+print(a[:13:-2])
+#the negative step forced the string to be indexed 
+#from the right side starting from 0.
+
+  OUTPUT:
+  Impersonating The One
+  eOeTgi
